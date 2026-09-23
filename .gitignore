@@ -1,0 +1,16 @@
+# Local/private convenience files
+.env
+.env.*
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Old deployment output is no longer used in the GitHub-root workflow
+dist/
+docs/
+
+# Optional local editor metadata
+.vscode/
+.idea/

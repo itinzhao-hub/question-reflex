@@ -1,0 +1,2085 @@
+{
+  "version": 1,
+  "items": {
+    "Q0001": {
+      "text": "Pourquoi avez-vous décidé de",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0001__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "79fec783ff9f637b15310cd1a3e315279fe24cb2337b3958dffb1a355b172165"
+        },
+        "female_normal": {
+          "path": "audio/q0001__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "6dc6da433f82d3052aa4e7c297eafa6d8f1644337ea5cd55e9ff8c76796b3dee"
+        },
+        "female_fast": {
+          "path": "audio/q0001__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "bbe8d90ccec21f95b57ef3eec5f979b7e97ba8bc7a37dcbb0934efcb2fca0a94"
+        },
+        "male_slow": {
+          "path": "audio/q0001__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "26d1409ac64d8b97812da9a9834164673c5e67e394153fe4d9284b049b5f21a4"
+        },
+        "male_normal": {
+          "path": "audio/q0001__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "e95a7b0084d1c5e624d2e895825f93fb213529e36c1a24cba1be72f873e0ca86"
+        },
+        "male_fast": {
+          "path": "audio/q0001__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "5feac72b95bb9c709e788c37606899fe55be449b5821aa3fe9f95b76b5a30d55"
+        }
+      }
+    },
+    "Q0002": {
+      "text": "Pourquoi voulez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0002__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "05dd0b9f1a41546645ec9e1498c9e5ba4b759ae32ef804a12e18beb60cd95714"
+        },
+        "female_normal": {
+          "path": "audio/q0002__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "06d9f22dc7ca433c6dd9f53c06a46aba0ccc8d41c700b71ff9bd25257e6885fb"
+        },
+        "female_fast": {
+          "path": "audio/q0002__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "3ddd15e21606d05f18e8be8b60788c427f61e8f21cc7ab90749467fa3569d497"
+        },
+        "male_slow": {
+          "path": "audio/q0002__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "448cc9a421121276a7bdf628330c76cfaf017b1676fd942e8623d42e656127db"
+        },
+        "male_normal": {
+          "path": "audio/q0002__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "73eed9124fcdd2eff1426c49781bde1cfad1c5cd601ceb0e480df6bb307ce9ee"
+        },
+        "male_fast": {
+          "path": "audio/q0002__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "39e8ae40be3362b2fc32598e4a90a24e77790b41ec2546d29ba83a4ab0deed09"
+        }
+      }
+    },
+    "Q0003": {
+      "text": "Pourquoi êtes-vous venu",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0003__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "db80a984bddfb91ab4d925631344b0db7b7b80ec13277d7ca283b9c0f11a7ee2"
+        },
+        "female_normal": {
+          "path": "audio/q0003__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "e3dedddff31c6d4381da17fbec87311df8c22d7e903a1e81004f5858ffdbb504"
+        },
+        "female_fast": {
+          "path": "audio/q0003__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "b1a6c91b7cea319848f70b69c8fce44b3a72c9ef5f00b75a97933387dc128c47"
+        },
+        "male_slow": {
+          "path": "audio/q0003__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "2ceb6ccb2dd46befb754d4353ade93de4ab031aba3626fbd2188a202ffa15f5a"
+        },
+        "male_normal": {
+          "path": "audio/q0003__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "ddecd39e4f71b31f444bcbb076439e1ac75a04093bffd1a7cdb84b177e69edb5"
+        },
+        "male_fast": {
+          "path": "audio/q0003__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "a9417386c5ca849f5af773a2601f391a03d1edcf5ffe26662a3e60cb141ef86e"
+        }
+      }
+    },
+    "Q0004": {
+      "text": "Pourquoi pourriez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0004__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "7278791f1fc84d1a303cfa2113f14525a2e7a6975a9d3e9c60345409896a5123"
+        },
+        "female_normal": {
+          "path": "audio/q0004__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "670860eb8069843406765ace9acfd51f474c887b41008117dd6f0a62fab5e2bc"
+        },
+        "female_fast": {
+          "path": "audio/q0004__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "3296e7c93ef2a8cab051fd2276c5cf7233239c95ee85df39880d8a7a9e299787"
+        },
+        "male_slow": {
+          "path": "audio/q0004__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "ceb6510993dcdbff5dc981b22b8b2d7e88dc7b34bde7cfd080c9b1b2f2918ed9"
+        },
+        "male_normal": {
+          "path": "audio/q0004__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "d32205b687606da7d7438388392cfb1d99bf66031f0e435e095fdcce935ecacc"
+        },
+        "male_fast": {
+          "path": "audio/q0004__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "61bbb6200655e6126438fc10b19139e999acc5d0a6aea59cf5d0c3ddf1987429"
+        }
+      }
+    },
+    "Q0005": {
+      "text": "Quand avez-vous commencé",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0005__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "7b168756d106a46cf8d20ef03fac7a6ef99e76a3e2436784ce5e892a48ae94fd"
+        },
+        "female_normal": {
+          "path": "audio/q0005__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "c3bdb3339cd511eeddcc6c1ce7286f3905cc7bb88bc2c93bbd8c4ff2ce49b980"
+        },
+        "female_fast": {
+          "path": "audio/q0005__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "934fc5a7f1c8b8c21dd91c5d950e82776550a926eaeb80d5d0a603148c3c8a04"
+        },
+        "male_slow": {
+          "path": "audio/q0005__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "297d1983cccd679bf90254633105825e2929de7718e87c505f06884f13161250"
+        },
+        "male_normal": {
+          "path": "audio/q0005__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "d5f775361c72fa8958986a6ca7f73435b43f68fa477cdbf2664274b31bd01429"
+        },
+        "male_fast": {
+          "path": "audio/q0005__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "fa7484bdf496020889069b1d99b63c9ab1867d3202126d4fdc3a66d0ac4dd9a6"
+        }
+      }
+    },
+    "Q0006": {
+      "text": "Depuis quand travaillez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0006__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "7045ff62c7f5f66410c774f8dc6fae3b93cc9c691a20a535a7736a8076692d8a"
+        },
+        "female_normal": {
+          "path": "audio/q0006__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "42325c8a5283aca333097b3b72af58e160129204290b10c3ed49ea4582be1867"
+        },
+        "female_fast": {
+          "path": "audio/q0006__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "0ca270f74e767961567f8125cf2468d6cbc3d2e3841c7b1a089539b07a8a8b7d"
+        },
+        "male_slow": {
+          "path": "audio/q0006__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "e2802922b726a3e2b9e30bc78704f80abc5871144c68f285c902f9b9d8e3ce08"
+        },
+        "male_normal": {
+          "path": "audio/q0006__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "0dbfe228d6342bedf6665d5bb2b9fa77f6ae020d8739464f75ca28d8d72b0e05"
+        },
+        "male_fast": {
+          "path": "audio/q0006__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "af6daebef6995a2e31baaec3696c0c14fe741589ea3312953405f5a2f4c10210"
+        }
+      }
+    },
+    "Q0007": {
+      "text": "Combien de temps avez-vous travaillé",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0007__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "017624e211385729cc1547f31dadfa56e2621f7de155247471abd9c3deb322b5"
+        },
+        "female_normal": {
+          "path": "audio/q0007__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "6d2db23409b3def8fc611633a13e749ab8533bdbee6abab045e97a313290cf16"
+        },
+        "female_fast": {
+          "path": "audio/q0007__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "5b916a5980196acbbc39f8b49befbe6aa5974d2c2c479d8653c18b75fecfd5c6"
+        },
+        "male_slow": {
+          "path": "audio/q0007__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "2860335de9ef9f8976eb0b34a1d716dc28a021aeb8f474eb563f59c9eb558df5"
+        },
+        "male_normal": {
+          "path": "audio/q0007__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "37f238bd992e23aace4526777fef60155e987432682ee00cd511204e3e6641a6"
+        },
+        "male_fast": {
+          "path": "audio/q0007__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "3d401d22888ef719f34b030eaada10e566b672782407588cc1c9b0d065ff1934"
+        }
+      }
+    },
+    "Q0008": {
+      "text": "Où avez-vous trouvé",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0008__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "09ec5b1d66c080867643476b46f24d26b10bed6e21ec004c6e79684897926957"
+        },
+        "female_normal": {
+          "path": "audio/q0008__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "ecdc1ebeac99793fe90681ead31c44eef88894b61dd961237a963811969a2543"
+        },
+        "female_fast": {
+          "path": "audio/q0008__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "3afe99e0f352c9cb87734155c40b186cb6e157dfb086a2f7b0e7754eec6e51e3"
+        },
+        "male_slow": {
+          "path": "audio/q0008__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "0740d40ca6f24e495b0cdaac0dacfeedbd77e9c2aae1089b3823ed70d5e3bd2c"
+        },
+        "male_normal": {
+          "path": "audio/q0008__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "b51bf43a0c30db3de7a285b92896a70ef728407afca1b1e01641602dfc7704d9"
+        },
+        "male_fast": {
+          "path": "audio/q0008__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "a4dc1ebf146515102957c48a6b5c41a39a11c5a97c3c4ac2b9cda4ae8ff92415"
+        }
+      }
+    },
+    "Q0009": {
+      "text": "D'où venez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0009__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "0e2e7a6ff905e7f712a651db1c4d0daad2c9a21623d7202d1ab504910ee4cc21"
+        },
+        "female_normal": {
+          "path": "audio/q0009__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "93bc3bd5054ab1cb66e916a913bed3589a44537082823eceb3859397e1442d12"
+        },
+        "female_fast": {
+          "path": "audio/q0009__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "369ce4327503c1753c8b2f59afec77327f754f37e1e0562f13c8138cb8b6daaf"
+        },
+        "male_slow": {
+          "path": "audio/q0009__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "8ceaee4f64396d83874d5702bb1a0b0e9861ab53164cd240073a6c4fa50474a8"
+        },
+        "male_normal": {
+          "path": "audio/q0009__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "5478c1e980218ded7ff49616eef2e4a4ccfb058c8293add2f124ecff0de4d756"
+        },
+        "male_fast": {
+          "path": "audio/q0009__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "556166828b72ae833e3c76dc448b13ab4820d9308ff5aef69fd66f9d22ccbcd5"
+        }
+      }
+    },
+    "Q0010": {
+      "text": "Comment avez-vous appris",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0010__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "3bf8f2ea77a3f2b09a614a9ef9acd644effd9a897e1b866621cc5e80589f4df7"
+        },
+        "female_normal": {
+          "path": "audio/q0010__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "e5e31cc865af25cb94cf5155f17efb767d6652523c38ab7a1715420456b18931"
+        },
+        "female_fast": {
+          "path": "audio/q0010__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "8c77ac5e7bdf80cc992d0776921b69d72b15775d2474f2ccc4700a6c62b6da3c"
+        },
+        "male_slow": {
+          "path": "audio/q0010__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "fb324c942a1a56bc3f57fde6605a5add08be996dc40cac300890b9a29d8a7684"
+        },
+        "male_normal": {
+          "path": "audio/q0010__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "e516fe40042dc0d8d527259636e62d8802fb01a4788e6788f64418bc035b9ad7"
+        },
+        "male_fast": {
+          "path": "audio/q0010__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "d76daac8ff79d728936ff4011b5b865385c803602c14273d02e076b2dc52c085"
+        }
+      }
+    },
+    "Q0011": {
+      "text": "Comment trouvez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0011__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "d06e48087810a7ea7b054099f8ed645b4e9d97649517836753cc212064e9496c"
+        },
+        "female_normal": {
+          "path": "audio/q0011__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "33232b7ddad9ab6ea1ce53db05616ae1f128b185f41250d650a6d77b0fb8a7f4"
+        },
+        "female_fast": {
+          "path": "audio/q0011__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "f2bfd821566b03f4c62582b0665bd3a297eaad43b317390fe2374138b12a4578"
+        },
+        "male_slow": {
+          "path": "audio/q0011__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "a2557f227c60bd82b5e28225790edd1777618774603394f62c8b329eccaf919a"
+        },
+        "male_normal": {
+          "path": "audio/q0011__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "6bce62c79ad87ded8b5120c603b0e100ea178c901e929ccd5c7dbecd1a0315e6"
+        },
+        "male_fast": {
+          "path": "audio/q0011__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "5ff37419ff8f6a35dac9639dfc433669acbfb3dec60d09ca928afc5f32bf6879"
+        }
+      }
+    },
+    "Q0012": {
+      "text": "Comment expliquez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0012__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "9c9ca0d7eef53dd9ceb7215b6e08ad22f7a61b31284426e7934103e528e64375"
+        },
+        "female_normal": {
+          "path": "audio/q0012__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "1a7b076775ab195cd3de4aefcffec6a3f8f39227be2ef2e9838dca19302b2839"
+        },
+        "female_fast": {
+          "path": "audio/q0012__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "476676fb8a06e31e5625ebd1335ec501f7c45bc42c5db53a6c05f9a144a17db9"
+        },
+        "male_slow": {
+          "path": "audio/q0012__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "2af716ce3118113d3b045b28845d9540fb14c27adfba588e617e0a2fc8a1662c"
+        },
+        "male_normal": {
+          "path": "audio/q0012__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "bafa51acf81124f5741ac53d469f4d8186dbcd5777928c6e36c7b9d9e16fc938"
+        },
+        "male_fast": {
+          "path": "audio/q0012__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "e4d8bdcadacf9fabbbc217801ad32510f158c47b3c671e3ff6ac6029315b3df5"
+        }
+      }
+    },
+    "Q0013": {
+      "text": "À quoi pensez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0013__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "16a866534a97df2e79b831764424089646f0d822b463d17ee649f9d388761252"
+        },
+        "female_normal": {
+          "path": "audio/q0013__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "fb3536e9a850afc874ba914a4f0825fe523db3f782e0ef2c9e4280ab8255d1c6"
+        },
+        "female_fast": {
+          "path": "audio/q0013__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "9fc1cdcf2b80719b3083930805db0f6db7c4df51a711332c506a3560f48475d5"
+        },
+        "male_slow": {
+          "path": "audio/q0013__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "fa97c43d8fdc2691ff8fb170d9ab62c201b0e232473f0404bd0b4d89fc8a497a"
+        },
+        "male_normal": {
+          "path": "audio/q0013__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "f76c3e69aa9f12172ecfea43d6a5e951741ae1513b4f283c5a48dc483bd38e25"
+        },
+        "male_fast": {
+          "path": "audio/q0013__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "77cfaa1bc6c98602f738dd59ddf9f33a5e028fd6602412efc8de8fc2abe7a553"
+        }
+      }
+    },
+    "Q0014": {
+      "text": "De quoi avez-vous besoin",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0014__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "8f282fb2811c029781ba99028e63803a232cbd81b9ab535863361be9ab2ebb3c"
+        },
+        "female_normal": {
+          "path": "audio/q0014__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "fe2149b66ae1aeb6a726403673151d80744f1857cc8991773683892156cff7eb"
+        },
+        "female_fast": {
+          "path": "audio/q0014__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "a4742bf7d169dd7c8c2201ef7a4df9a2bb41dd1abb608b0f37d89ff06b9a3054"
+        },
+        "male_slow": {
+          "path": "audio/q0014__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "d4a23eb332dc877f3e9783e6d80f2a68612a4f99b3e53c44f301637dc73dc2f8"
+        },
+        "male_normal": {
+          "path": "audio/q0014__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "b4376f8aabf9f3a0d29c2612e7bc66dca61609da1cc3d8d6168f5a8496a985e0"
+        },
+        "male_fast": {
+          "path": "audio/q0014__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "3134b53829442ef421d2ad9a8b5f27403fd3b636f82b380e2205dda376ea5181"
+        }
+      }
+    },
+    "Q0015": {
+      "text": "De quoi parlez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0015__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "71272aaeb7b1dfbf6c9b5c51a699c778fd2d2ddb448f9e10905e35bc5d62523e"
+        },
+        "female_normal": {
+          "path": "audio/q0015__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "e64417a249e01a3659d281c9e7661b8bc018944e092f57f647721c6b1fc59821"
+        },
+        "female_fast": {
+          "path": "audio/q0015__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "70cce4aef69dd94df8f77f7ebaf68264324b15d82d98944374afad48049c2105"
+        },
+        "male_slow": {
+          "path": "audio/q0015__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "12cec022f264d8df4bb0e1cfeacc621916a8b642c96887ac027164933435e4c7"
+        },
+        "male_normal": {
+          "path": "audio/q0015__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "4318a6319bc58f5aa116c1ad2865371fc82be60215a119f4d39872126f324eff"
+        },
+        "male_fast": {
+          "path": "audio/q0015__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "4349163906abe6e4936609e28d51ec70d0ed6e49717cf3e80d06181dc6f9ba6e"
+        }
+      }
+    },
+    "Q0016": {
+      "text": "À qui avez-vous parlé",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0016__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "6e92669e7b20c30ab472ff7d9abd32f24d6e5ea303e0c3bec888f160d70359cd"
+        },
+        "female_normal": {
+          "path": "audio/q0016__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "8ce8164c1f41f88910bbac4d7c089051e2d37e1e70dc4145f1b44fa419598275"
+        },
+        "female_fast": {
+          "path": "audio/q0016__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "fc43a99f690dd6e021d30926ddeb0f885233ff55cb3d9cb9eb425bf8fb2c2058"
+        },
+        "male_slow": {
+          "path": "audio/q0016__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "8e4763b2f2ef665a5f314d5950fa89198c243b2a2aa7713d95d979da1d433b84"
+        },
+        "male_normal": {
+          "path": "audio/q0016__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "ceb74869c40432ff87417c7ee9711dd5b86fe42c60149aa6758f0be45aaa9149"
+        },
+        "male_fast": {
+          "path": "audio/q0016__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "a26d34ef0b1cd2b730108660dd520aaedbbbc4baa6436d4317dfa7f624557395"
+        }
+      }
+    },
+    "Q0017": {
+      "text": "Avec qui êtes-vous venu",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0017__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "0dbdd465707c21c443776edc12181665239370e0cf6ac56d91d96cbe4eb5fda0"
+        },
+        "female_normal": {
+          "path": "audio/q0017__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "ba40bc72af96912abca80d9bec6cac4fc64dda42ad594b27c7e47970b1b53d85"
+        },
+        "female_fast": {
+          "path": "audio/q0017__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "710513cd26016a7ea4fcae599073f3de99f471fb68a0163adcc60ca04e49107c"
+        },
+        "male_slow": {
+          "path": "audio/q0017__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "ec93c02cc29515f1cb490b7af54c77624221fea1a57de1f9d9e00e2a27a0ad96"
+        },
+        "male_normal": {
+          "path": "audio/q0017__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "17acfb3583d11fd552d1b5978421ea02169a6bfad30522b4eabec5df1596372f"
+        },
+        "male_fast": {
+          "path": "audio/q0017__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "8bce1c42a4097e62ecf99c821e6dcd52d12eadc439aa0b12c0a60e8b0644c253"
+        }
+      }
+    },
+    "Q0018": {
+      "text": "Pour qui travaillez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0018__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "9d271ee6f63d071733f6341cb6b3db43de4405f62677c4c3388a2ea7770827c4"
+        },
+        "female_normal": {
+          "path": "audio/q0018__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "3b671e576e4e3082540c16b3ec7bc5398c73b122d35a37722952e2ae7934b79d"
+        },
+        "female_fast": {
+          "path": "audio/q0018__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "7ffab44772d36417e2e36e627be38466e868664bdca93383b9299580ef96170d"
+        },
+        "male_slow": {
+          "path": "audio/q0018__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "c81ae07676210731dbc196e13d1c6e4b61907c9908ff08876dad42884fc38cc4"
+        },
+        "male_normal": {
+          "path": "audio/q0018__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "616c6c521e7bc54df0733a04583fa1b197c458e4778319a99ec3387f11178d24"
+        },
+        "male_fast": {
+          "path": "audio/q0018__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "5553c9d2165754fdf374977b3d3965e938804612734f7c281b35afe62c340adf"
+        }
+      }
+    },
+    "Q0019": {
+      "text": "Qu'est-ce que vous voulez",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0019__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "c52bfbdbce684be7624b5370562671e5181ef4160e424f61f56cd79aaa65999f"
+        },
+        "female_normal": {
+          "path": "audio/q0019__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "9512b67f2bf10ab821b9b3c6de4901872b4d3d6a6beacd5d3a27bae27f323289"
+        },
+        "female_fast": {
+          "path": "audio/q0019__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "5ee191ec6754f54c0bc5928848cf8d0f820e2bf03331db4d28684848afbad543"
+        },
+        "male_slow": {
+          "path": "audio/q0019__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "eaff5c88ab5f5aabee9bed092a5a8aee9e634bf65cdc409ab60b757b924905f1"
+        },
+        "male_normal": {
+          "path": "audio/q0019__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "a81573cb3d9540913a2b54f4614f6764c97c397b12564fa82ba09f622dbbd25e"
+        },
+        "male_fast": {
+          "path": "audio/q0019__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "4e3d35a8701b62d010da9a28244f9caec2ae76785e68d90c0c779a16bf4e57c1"
+        }
+      }
+    },
+    "Q0020": {
+      "text": "Qu'est-ce qu'il veut faire",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0020__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "b75ee4471ea274fae0b95d1680e73e16bffd3d9c4e706292f434d6e9dbf1a28e"
+        },
+        "female_normal": {
+          "path": "audio/q0020__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "8220cca81125691b6c80259911807294096cc88be4e83be72ff2b0b3072f39f9"
+        },
+        "female_fast": {
+          "path": "audio/q0020__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "2f9e0fc398d543aeb47f2d7deadc78a74a21f4bef3b1098568a618136fc7acef"
+        },
+        "male_slow": {
+          "path": "audio/q0020__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "24f663c06895510772230b7efeeb8b82d8cbfc96cb83670ddd3f0648eb239d12"
+        },
+        "male_normal": {
+          "path": "audio/q0020__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "8e534d9cb596d02682d4e0c1596a66611bf7318bb5c524edf717766f517b8f05"
+        },
+        "male_fast": {
+          "path": "audio/q0020__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "225b83170394751065c08343684a18b744a05bac58d9997d4afc279af3960281"
+        }
+      }
+    },
+    "Q0021": {
+      "text": "Qu'est-ce que nous devons faire",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0021__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "e5f348375edeb41c07100ef99284e19b4aba8dfde3a5bf0e42299fafbfca1159"
+        },
+        "female_normal": {
+          "path": "audio/q0021__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "ac1acd6b14e3b54916d0ea4e095261098e64282b87d62168078f2241b759065c"
+        },
+        "female_fast": {
+          "path": "audio/q0021__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "8de48114cbbb4571dc1d83f9009b7829b0cfca3ec06dfa5b55bcdaea5138aa3b"
+        },
+        "male_slow": {
+          "path": "audio/q0021__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "b6f177897fcadf667e0d44dcd4f4dc05c532010790b8d15c30ae34af71b1a4e2"
+        },
+        "male_normal": {
+          "path": "audio/q0021__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "3b93fdc432889c5794290473946e9598a478b9ff86c6527ade5764700eb6707e"
+        },
+        "male_fast": {
+          "path": "audio/q0021__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "541205d694682e22ef68b734b7ef445b1a580f66252dfb9f263e3e83da30b396"
+        }
+      }
+    },
+    "Q0022": {
+      "text": "Qui avez-vous rencontré",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0022__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "aa50afc55660d92cae52496679458f9110af41141d97718d95f2544c354ec896"
+        },
+        "female_normal": {
+          "path": "audio/q0022__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "412b26b299d3b2f15b3586f32ab6c2d4825f95f1115d18eb58b4ca9da28dde46"
+        },
+        "female_fast": {
+          "path": "audio/q0022__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "981e6e40aad5d7253aae4ea6311094367ac028ae4e74b7549fff0075eeba2dc8"
+        },
+        "male_slow": {
+          "path": "audio/q0022__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "f13c68db13b0c04452f7da2b2e1d6f572563371b57041e35d3e3a1f9c858d906"
+        },
+        "male_normal": {
+          "path": "audio/q0022__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "91a3e2a7eebb9cc12e72e7b12d266b5e1e64a8a5250dde56240a6ca30f1fb29f"
+        },
+        "male_fast": {
+          "path": "audio/q0022__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "efebb011cc124b3fed26ecfbfcae0b3fbc4a7070d68ba0ac13c09d4075857581"
+        }
+      }
+    },
+    "Q0023": {
+      "text": "Qui est-ce qui vous a appelé",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0023__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "6a2b9b862fe1e4f7d2d216c12eb625443a631204f18d8ac9e82e24da603f0906"
+        },
+        "female_normal": {
+          "path": "audio/q0023__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "154c825bdeb659af3d4c512254402204301242ba231bb0c2f24e301bd41b67e1"
+        },
+        "female_fast": {
+          "path": "audio/q0023__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "e1e5f804c0b943ac5643953291180f6c8e85ce815cc3cee59f6fc39d1a37455d"
+        },
+        "male_slow": {
+          "path": "audio/q0023__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "ca4ac9f527833bbd536c420767f788498341b2a1670152b679f55e2a06636fbd"
+        },
+        "male_normal": {
+          "path": "audio/q0023__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "86a12f0644b34fbb42e0075d5611115b690e03be11f5784222ef6ff34e19feb3"
+        },
+        "male_fast": {
+          "path": "audio/q0023__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "621dfa3c71705b70f3d2ab6356f6426193494addd289d5b8b8882cb999b430b1"
+        }
+      }
+    },
+    "Q0024": {
+      "text": "Lequel préférez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0024__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "ce80b2297e14a2ba9e0e7b335408608e6ad525303cb171bf68b85df7dc1222f9"
+        },
+        "female_normal": {
+          "path": "audio/q0024__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "9204b39576af19bd205548263a4dab23bd76426ecc2f43654a354666abf1d7c8"
+        },
+        "female_fast": {
+          "path": "audio/q0024__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "83ce6917ca5c5935183aafe357cd21a8777af51e239d063cb82bbcb58fa5ab57"
+        },
+        "male_slow": {
+          "path": "audio/q0024__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "5f41f4d0f9d81e82d1b405ec426063b07c904c224b7ac20efe2ff5f76ca306bb"
+        },
+        "male_normal": {
+          "path": "audio/q0024__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "aa59da718d6bb6db8c9ab49a6cb9130744626fd41f52171bf4e8dc99352a28af"
+        },
+        "male_fast": {
+          "path": "audio/q0024__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "3a2712551b0c33ac596ad63ae7d37f5238b37fcf94e8d82280a7504dd4ccabce"
+        }
+      }
+    },
+    "Q0025": {
+      "text": "Laquelle avez-vous choisie",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0025__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "3ae48c6b325c21538dd3325896d25bba672537f9749426cd729e18e722ad9739"
+        },
+        "female_normal": {
+          "path": "audio/q0025__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "3b469d234b8076725d462ba68224f338e9d6afc0759725959cd80628936f4071"
+        },
+        "female_fast": {
+          "path": "audio/q0025__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "232801425649c1e3ea2e4ac461a4736a946d3f3bbd3fc007099262c6e28c30d0"
+        },
+        "male_slow": {
+          "path": "audio/q0025__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "801bc6f3796d28613a3651f964b174b76edf821c2db3415131eb367e72652dd3"
+        },
+        "male_normal": {
+          "path": "audio/q0025__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "ada23dde01fad579cb90d9e0b0589319d75bcf0c4c9671c1b6f5f9a9cb46f173"
+        },
+        "male_fast": {
+          "path": "audio/q0025__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "7f8bf78587401ac25437dfcc484e77c2bb05ef037557be5de39b523772cdebfa"
+        }
+      }
+    },
+    "Q0026": {
+      "text": "Quel type de logement cherchez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0026__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "8d4da86536dda6867fcc32af9c26dec43e81b3d563e517a5b9770d934dfc7992"
+        },
+        "female_normal": {
+          "path": "audio/q0026__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "c0c4250d26b35d697b38ee1e0911d5ab49bf37c6642e2844a126813e9c8adf4f"
+        },
+        "female_fast": {
+          "path": "audio/q0026__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "a858e15b8dcededfd3d5180eddcb2373983b3ff3c72bd422e040643e960fd7d5"
+        },
+        "male_slow": {
+          "path": "audio/q0026__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "33572c66e298263b75edadffe5d4f1f92fc628ccbd968c3a7cd501024224ccd7"
+        },
+        "male_normal": {
+          "path": "audio/q0026__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "7d835c339d695d3ff7dc1cbe9ebc1b27e99a604a1376b38d32049e0e983aad74"
+        },
+        "male_fast": {
+          "path": "audio/q0026__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "58ca2600b926fe963c596c3b7536c9abc886b709ea2e1c9231bb42d813ea76e4"
+        }
+      }
+    },
+    "Q0027": {
+      "text": "Combien coûte",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0027__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "0ef0a1cd7ac149043de28de5f5df2dc66b86ffad6b4e713012dbac4e1ecd2bbf"
+        },
+        "female_normal": {
+          "path": "audio/q0027__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "1e885cdc33a9986600747296b74b091b032bdb93a08c84bff5578a7bddb0ff0e"
+        },
+        "female_fast": {
+          "path": "audio/q0027__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "705613c6bd5ba7d88d3c228c8b00538a08fa819ab8c64fe43948e9d70fc5b67a"
+        },
+        "male_slow": {
+          "path": "audio/q0027__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "304e4bd435cd18c461e1db91ed65313ea46f0695e8decf1fa897e886ee948b86"
+        },
+        "male_normal": {
+          "path": "audio/q0027__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "5d5353cc4d81cd4acbf3af2474e721cd3932709e7570992892cbc53a229d0c30"
+        },
+        "male_fast": {
+          "path": "audio/q0027__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "c0c63cc1701cf1d7c9b6b898485a928603da86e25e50849ba45856cbcf2aafe3"
+        }
+      }
+    },
+    "Q0028": {
+      "text": "Combien de personnes avez-vous invitées",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0028__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "9e05c3e1a5dd331152dafb6877e94a6e432e7e9f995099da733c3cabe082fa6d"
+        },
+        "female_normal": {
+          "path": "audio/q0028__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "4d01b955c3e701d3b49b8e6f43c1034caf595e5ffbd8526515d376d0e9ebd97a"
+        },
+        "female_fast": {
+          "path": "audio/q0028__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "e891a597b72242ef401af8271b0f87f9a4fd8c66561bcff4f9fb1bb46dbfd5ef"
+        },
+        "male_slow": {
+          "path": "audio/q0028__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "fa698341f8c871d3e3d4a7b8aa5e689a069524beb5d9cf83b349512e9c14b24b"
+        },
+        "male_normal": {
+          "path": "audio/q0028__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "d8fc1feb8bb07d4890abcf90859d405dedf15c115e5b9838ca6eea1602f3478a"
+        },
+        "male_fast": {
+          "path": "audio/q0028__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "b4826c2d8189b44072318799c468b1801e6d78d7a912b903f55666f732c333aa"
+        }
+      }
+    },
+    "Q0029": {
+      "text": "Est-ce que vous avez déjà",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0029__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "6e10f4fe5b22a0c7f4e908565229dc6e3fd92a56ba689ba3568bac4c3a675e76"
+        },
+        "female_normal": {
+          "path": "audio/q0029__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "86fcb5f6721f4e8e3781234848d8bcc1790c46d5a8d8bfe6d3a325de15256650"
+        },
+        "female_fast": {
+          "path": "audio/q0029__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "8d84284fc007c34bce7d1fafa709d28745c81d95fd3a344650c4f92883fd249e"
+        },
+        "male_slow": {
+          "path": "audio/q0029__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "0bf2a5ade61387ac6735c8bbeb2363935832c3a8163fa02c751954bdd153f894"
+        },
+        "male_normal": {
+          "path": "audio/q0029__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "35d7d86351399dcccf3e6fd5223c91abf8b967e725ddbae070f009774616f344"
+        },
+        "male_fast": {
+          "path": "audio/q0029__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "4f1b5098846cb610dc70060f6058e9c459f192e4b5135c8fabd9d224283c7c45"
+        }
+      }
+    },
+    "Q0030": {
+      "text": "Avez-vous déjà",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0030__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "2f30a854ef270e302280a171f4cfdb28bc9c6444c95e4b521081159292c2dccb"
+        },
+        "female_normal": {
+          "path": "audio/q0030__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "c457b5d54723979911d561dc9a64f2a13fc07682f6e350e236bf8a2351e8f535"
+        },
+        "female_fast": {
+          "path": "audio/q0030__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "29ac209e17b6343edff9c7604d79839a987dc556c5eee9cbf19f21cbde647d4e"
+        },
+        "male_slow": {
+          "path": "audio/q0030__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "a86bb59a2fc4f26a44dbec40c694eebaed17f1830495173da0e384cf0d8414ad"
+        },
+        "male_normal": {
+          "path": "audio/q0030__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "2a9b22a4aa92116c336c1c32ac34dfd9cb4221d60e67dee3bd987bd330fb8c90"
+        },
+        "male_fast": {
+          "path": "audio/q0030__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "c6802ef7b6258c4f40a7c319910ffa3d7855121190beeab478b1be7efc791754"
+        }
+      }
+    },
+    "Q0031": {
+      "text": "Souhaitez-vous",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0031__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "f7c95c98ac4caf0f5b67a273fe98d95f5d117e1edc7187f72fc9b3bbaa7c0e4c"
+        },
+        "female_normal": {
+          "path": "audio/q0031__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "4af757f09eea0e98f52a7bd487cdfe1acb6038a21dc22555eafb8472f7c42535"
+        },
+        "female_fast": {
+          "path": "audio/q0031__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "fd6e92a8b7326d894df318fda413449fb8df04cc3dc31c7d8a5fb9931ebe78e0"
+        },
+        "male_slow": {
+          "path": "audio/q0031__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "1b62f4c5707e2fa44224ffa4d740d1347d54dda5fc6ee8f8d3f08cb54e25f87c"
+        },
+        "male_normal": {
+          "path": "audio/q0031__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "66cc0f80109155913495ab99829ffc17a8d41fc1c3374cb610bc056928b873f4"
+        },
+        "male_fast": {
+          "path": "audio/q0031__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "044d6c848530b35ed2299835fe08afb61cd510b4a16067b68d12c90b9293b181"
+        }
+      }
+    },
+    "Q0032": {
+      "text": "Pourriez-vous me dire",
+      "variants": {
+        "female_slow": {
+          "path": "audio/q0032__female_slow.mp3",
+          "profile": "female_slow",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": -0.8,
+          "fingerprint": "65fcefddae9211456c43109ace4799e2027211f81f951e83be58df4fb2186efe"
+        },
+        "female_normal": {
+          "path": "audio/q0032__female_normal.mp3",
+          "profile": "female_normal",
+          "voice": "fr-FR-Wavenet-F",
+          "gender": "FEMALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": 0.5,
+          "fingerprint": "0abd5df8614ca04aa843cf7a4bd5d35073e48b25dfe1970b5264e9eb63375c65"
+        },
+        "female_fast": {
+          "path": "audio/q0032__female_fast.mp3",
+          "profile": "female_fast",
+          "voice": "fr-FR-Neural2-F",
+          "gender": "FEMALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "198cedda739b4e9155beead1670cef736853bab7d6566bc1baaa2ab451935d24"
+        },
+        "male_slow": {
+          "path": "audio/q0032__male_slow.mp3",
+          "profile": "male_slow",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "slow",
+          "speakingRate": 0.92,
+          "pitch": 0.8,
+          "fingerprint": "78ececc0bf31821244b5357fb098a53626122cc8bcdd82b341c24094bbfcef49"
+        },
+        "male_normal": {
+          "path": "audio/q0032__male_normal.mp3",
+          "profile": "male_normal",
+          "voice": "fr-FR-Neural2-G",
+          "gender": "MALE",
+          "speedClass": "normal",
+          "speakingRate": 1.0,
+          "pitch": -0.5,
+          "fingerprint": "82892ce1aad1021181f5b85dfffb314861a1215fd06d3f42b2d9be92ddf051a2"
+        },
+        "male_fast": {
+          "path": "audio/q0032__male_fast.mp3",
+          "profile": "male_fast",
+          "voice": "fr-FR-Wavenet-G",
+          "gender": "MALE",
+          "speedClass": "fast",
+          "speakingRate": 1.1,
+          "pitch": 0.0,
+          "fingerprint": "2530f31f277242e0b0ef569f36f95da10ee97da49f93aaedb13af720948208e1"
+        }
+      }
+    }
+  }
+}

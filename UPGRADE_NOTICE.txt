@@ -1,0 +1,16 @@
+GitHub root-publish upgrade
+
+将本升级包中的文件覆盖/添加到现有 Step 5 项目即可。
+
+旧文件：
+- make_deploy.bat
+- tools/make_deploy.py
+- README_STEP5_PWA.txt
+
+如果你原项目里仍存在，可以保留，也可以删除；GitHub Pages 根目录发布流程不会使用它们。
+
+首次：
+github_first_setup.bat
+
+日常：
+publish_github.bat

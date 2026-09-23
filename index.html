@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <title>法语疑问前缀反射训练</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>疑问前缀听觉自动化</h1>
+      <p class="sub">听法语 → 立即选择中文短译文</p>
+    </header>
+
+    <section class="panel">
+      <div class="topbar">
+        <button id="startBtn" class="primary">开始训练</button>
+        <button id="replayBtn" disabled>重播</button>
+
+        <label class="selectwrap">
+          <span>音源</span>
+          <select id="audioMode">
+            <option value="mixed">混合随机</option>
+            <option value="female">只女声</option>
+            <option value="male">只男声</option>
+            <option value="normal">只正常语速</option>
+            <option value="fast">只偏快</option>
+            <option value="slow">只偏慢</option>
+          </select>
+        </label>
+
+        <label class="toggle debug-toggle">
+          <input id="ttsFallback" type="checkbox" />
+          <span>缺失时允许浏览器 TTS（调试）</span>
+        </label>
+      </div>
+
+      <div id="availability" class="availability"></div>
+      <div id="status" class="status">点击“开始训练”</div>
+
+      <div class="stimulus">
+        <div class="speaker">🔊</div>
+        <div id="timer" class="timer">—</div>
+      </div>
+
+      <div id="choices" class="choices">
+        <button class="choice" data-key="1" disabled><kbd>1</kbd><span>—</span></button>
+        <button class="choice" data-key="2" disabled><kbd>2</kbd><span>—</span></button>
+        <button class="choice" data-key="3" disabled><kbd>3</kbd><span>—</span></button>
+        <button class="choice" data-key="4" disabled><kbd>4</kbd><span>—</span></button>
+      </div>
+
+      <div id="feedback" class="feedback"></div>
+
+      <div class="stats">
+        <div><strong id="nTrials">0</strong><span>本次题数</span></div>
+        <div><strong id="accuracy">—</strong><span>正确率</span></div>
+        <div><strong id="medianRt">—</strong><span>中位 RT</span></div>
+        <div><strong id="under1s">—</strong><span>≤1s 正确率</span></div>
+        <div><strong id="earlyRate">—</strong><span>提前作答率</span></div>
+      </div>
+    </section>
+
+    <section class="panel pwa-panel">
+      <div class="analytics-head">
+        <div>
+          <h2>安装与离线</h2>
+          <p id="offlineStatus">正在初始化 PWA……</p>
+        </div>
+        <div class="analytics-actions">
+          <button id="installPwaBtn" hidden>安装到设备</button>
+          <button id="cacheAllAudioBtn">缓存全部音频</button>
+          <button id="clearAudioCacheBtn">清除音频缓存</button>
+        </div>
+      </div>
+
+      <div id="offlineProgress" class="availability">正在检查缓存……</div>
+
+      <div id="installHelp" class="install-help" hidden>
+        <strong>手机安装：</strong>
+        iPhone/iPad：在浏览器分享菜单中选择“添加到主屏幕”，并选择作为 Web App 打开；
+        Android：使用浏览器的“安装应用”或“添加到主屏幕”。
+      </div>
+    </section>
+
+    <section class="panel analytics">
+      <div class="analytics-head">
+        <div>
+          <h2>训练记录</h2>
+          <p>记录保存在当前浏览器的 IndexedDB 中。</p>
+        </div>
+        <div class="analytics-actions">
+          <button id="refreshStatsBtn">刷新统计</button>
+          <button id="exportBtn">导出 CSV</button>
+          <button id="clearBtn" class="danger">清空记录</button>
+        </div>
+      </div>
+
+      <div id="lifetimeSummary" class="summary-grid"></div>
+
+      <details open>
+        <summary>按结构族 family</summary>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>family</th>
+                <th>N</th>
+                <th>正确率</th>
+                <th>≤1s</th>
+                <th>中位 RT</th>
+                <th>P90 RT</th>
+              </tr>
+            </thead>
+            <tbody id="familyBody"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <details>
+        <summary>按语速</summary>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>speed</th>
+                <th>N</th>
+                <th>正确率</th>
+                <th>中位 RT</th>
+                <th>P90 RT</th>
+              </tr>
+            </thead>
+            <tbody id="speedBody"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <details>
+        <summary>按音源 profile</summary>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>profile</th>
+                <th>N</th>
+                <th>正确率</th>
+                <th>中位 RT</th>
+                <th>P90 RT</th>
+              </tr>
+            </thead>
+            <tbody id="profileBody"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <details>
+        <summary>最近 Session</summary>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>开始</th>
+                <th>题数</th>
+                <th>正确率</th>
+                <th>中位 RT</th>
+                <th>音源模式</th>
+              </tr>
+            </thead>
+            <tbody id="sessionsBody"></tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+
+    <footer>
+      <p>正式训练默认只抽取当前音源模式下已有固定 MP3 的刺激。请通过 start_local.bat 启动。</p>
+    </footer>
+  </main>
+
+  <script src="stimuli.js"></script>
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+  <script src="pwa.js"></script>
+</body>
+</html>

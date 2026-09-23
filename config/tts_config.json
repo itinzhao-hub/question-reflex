@@ -1,0 +1,60 @@
+{
+  "languageCode": "fr-FR",
+  "audioEncoding": "MP3",
+  "profiles": [
+    {
+      "id": "female_slow",
+      "enabled": true,
+      "voice": "fr-FR-Neural2-F",
+      "gender": "FEMALE",
+      "speedClass": "slow",
+      "speakingRate": 0.92,
+      "pitch": -0.8
+    },
+    {
+      "id": "female_normal",
+      "enabled": true,
+      "voice": "fr-FR-Wavenet-F",
+      "gender": "FEMALE",
+      "speedClass": "normal",
+      "speakingRate": 1.0,
+      "pitch": 0.5
+    },
+    {
+      "id": "female_fast",
+      "enabled": true,
+      "voice": "fr-FR-Neural2-F",
+      "gender": "FEMALE",
+      "speedClass": "fast",
+      "speakingRate": 1.1,
+      "pitch": 0.0
+    },
+    {
+      "id": "male_slow",
+      "enabled": true,
+      "voice": "fr-FR-Wavenet-G",
+      "gender": "MALE",
+      "speedClass": "slow",
+      "speakingRate": 0.92,
+      "pitch": 0.8
+    },
+    {
+      "id": "male_normal",
+      "enabled": true,
+      "voice": "fr-FR-Neural2-G",
+      "gender": "MALE",
+      "speedClass": "normal",
+      "speakingRate": 1.0,
+      "pitch": -0.5
+    },
+    {
+      "id": "male_fast",
+      "enabled": true,
+      "voice": "fr-FR-Wavenet-G",
+      "gender": "MALE",
+      "speedClass": "fast",
+      "speakingRate": 1.1,
+      "pitch": 0.0
+    }
+  ]
+}
