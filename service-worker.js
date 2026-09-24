@@ -1,4 +1,4 @@
-const SHELL_CACHE = "question-reflex-shell-v1";
+const SHELL_CACHE = "question-reflex-shell-v2";
 const AUDIO_CACHE = "question-reflex-audio-v1";
 
 const SHELL_FILES = [

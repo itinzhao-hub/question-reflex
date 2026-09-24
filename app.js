@@ -6,6 +6,10 @@ const availabilityEl = document.getElementById("availability");
 const statusEl = document.getElementById("status");
 const timerEl = document.getElementById("timer");
 const feedbackEl = document.getElementById("feedback");
+const wrongReviewEl = document.getElementById("wrongReview");
+const wrongSourceTextEl = document.getElementById("wrongSourceText");
+const wrongCorrectAnswerEl = document.getElementById("wrongCorrectAnswer");
+const nextAfterWrongBtn = document.getElementById("nextAfterWrongBtn");
 const choiceButtons = [...document.querySelectorAll(".choice")];
 
 const nTrialsEl = document.getElementById("nTrials");
@@ -40,6 +44,7 @@ let currentAudio = null;
 let currentUtterance = null;
 let fallbackStarted = false;
 let responseLocked = false;
+let waitingAfterWrong = false;
 
 const sessionResults = [];
 
@@ -104,6 +109,27 @@ function enableChoices(enabled) {
 
 function resetChoiceStyles() {
   choiceButtons.forEach(btn => btn.classList.remove("correct", "wrong"));
+}
+
+function hideWrongReview() {
+  waitingAfterWrong = false;
+  wrongReviewEl.hidden = true;
+  wrongSourceTextEl.textContent = "";
+  wrongCorrectAnswerEl.textContent = "";
+}
+
+function showWrongReview() {
+  waitingAfterWrong = true;
+  wrongSourceTextEl.textContent = current.text;
+  wrongCorrectAnswerEl.textContent = current.answer;
+  wrongReviewEl.hidden = false;
+  nextAfterWrongBtn.focus({ preventScroll: true });
+}
+
+function continueAfterWrong() {
+  if (!running || !waitingAfterWrong) return;
+  hideWrongReview();
+  nextTrial();
 }
 
 function renderChoices(item) {
@@ -180,6 +206,7 @@ async function playStimulus({keepVariant = false} = {}) {
 
   timerEl.textContent = "播放中…";
   feedbackEl.textContent = "";
+  hideWrongReview();
   resetChoiceStyles();
   enableChoices(true);
 
@@ -255,6 +282,42 @@ function speakFallback(text) {
 
   statusEl.textContent = `${current.id} · 浏览器 TTS fallback`;
   speechSynthesis.speak(utterance);
+}
+
+async function replayForReview() {
+  if (!current || !waitingAfterWrong) return;
+
+  stopPlayback();
+
+  if (currentVariant) {
+    const audio = new Audio(currentVariant.path);
+    currentAudio = audio;
+
+    try {
+      await audio.play();
+      statusEl.textContent =
+        `${current.id} · 复盘重播 · ${currentVariant.profile}`;
+      return;
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  if (ttsFallback.checked && ("speechSynthesis" in window)) {
+    const utterance = new SpeechSynthesisUtterance(current.text);
+    utterance.lang = "fr-FR";
+    utterance.rate = 1.0;
+
+    const voices = speechSynthesis.getVoices();
+    const frenchVoice = voices.find(v =>
+      v.lang && v.lang.toLowerCase().startsWith("fr")
+    );
+    if (frenchVoice) utterance.voice = frenchVoice;
+
+    currentUtterance = utterance;
+    statusEl.textContent = `${current.id} · 复盘重播 · 浏览器 TTS`;
+    speechSynthesis.speak(utterance);
+  }
 }
 
 function finishAudio(t) {
@@ -338,9 +401,14 @@ async function finalizeAnswer() {
   updateSessionStats();
   enableChoices(false);
 
-  setTimeout(() => {
-    if (running) nextTrial();
-  }, 420);
+  if (correct) {
+    setTimeout(() => {
+      if (running && !waitingAfterWrong) nextTrial();
+    }, 420);
+  } else {
+    showWrongReview();
+    statusEl.textContent = `${current.id} · 回答错误 · 请复盘后手动进入下一题`;
+  }
 }
 
 function percentile(sorted, p) {
@@ -394,6 +462,7 @@ function updateSessionStats() {
 }
 
 function nextTrial() {
+  hideWrongReview();
   current = pickStimulus();
 
   if (!current) {
@@ -571,6 +640,7 @@ startBtn.addEventListener("click", async () => {
     ttsFallback.disabled = false;
 
     stopPlayback();
+    hideWrongReview();
     enableChoices(false);
     statusEl.textContent = "已停止";
     timerEl.textContent = "—";
@@ -580,14 +650,30 @@ startBtn.addEventListener("click", async () => {
 });
 
 replayBtn.addEventListener("click", () => {
-  if (running && current) playStimulus({keepVariant: true});
+  if (!running || !current) return;
+
+  if (waitingAfterWrong) {
+    replayForReview();
+  } else {
+    playStimulus({keepVariant: true});
+  }
 });
 
 choiceButtons.forEach((btn, i) => {
   btn.addEventListener("click", () => handleAnswer(i));
 });
 
+nextAfterWrongBtn.addEventListener("click", continueAfterWrong);
+
 document.addEventListener("keydown", event => {
+  if (waitingAfterWrong) {
+    if (event.key === "Enter" || event.key === " " || event.key.toLowerCase() === "n") {
+      event.preventDefault();
+      continueAfterWrong();
+    }
+    return;
+  }
+
   if (["1","2","3","4"].includes(event.key)) {
     handleAnswer(Number(event.key) - 1);
   }
